@@ -1,7 +1,7 @@
 <<'END_COMMENT'
 #!/bin/bash
 check() {
-    username="usrkali"  # Replace with the actual username
+    username="usrkali"  # Replace with any username
     day=$(date +%d)
 
     if [ ${#username} -gt 4 ] && [ $((day % 2)) -eq 0 ]; then
